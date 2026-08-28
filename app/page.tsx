@@ -14,22 +14,18 @@ const authors = [
 
 const contextLevels = [
   {
-    number: '01',
     title: 'World',
     description: 'Global identity, urban semantics, shared visual language.',
   },
   {
-    number: '02',
     title: 'Block',
     description: 'Local organization conditioned on surrounding city regions.',
   },
   {
-    number: '03',
     title: 'Building',
     description: 'A grounded instance with function, appearance, and footprint.',
   },
   {
-    number: '04',
     title: 'Interior',
     description: 'A corresponding space that belongs to its exterior building.',
   },
@@ -194,10 +190,6 @@ export default function Home() {
         <div className="context-flow">
           {contextLevels.map((level, index) => (
             <article className="context-card" key={level.title}>
-              <div className="context-card-top">
-                <span>{level.number}</span>
-                <span className="context-pulse" />
-              </div>
               <h3>{level.title}</h3>
               <p>{level.description}</p>
               {index < contextLevels.length - 1 && <span className="flow-arrow" aria-hidden="true">→</span>}
