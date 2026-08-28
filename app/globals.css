@@ -286,10 +286,7 @@ a { color: inherit; text-decoration: none; }
 .context-card:nth-child(3) { --step-color: #8f7764; --step-tint: rgb(238 231 223 / 76%); }
 .context-card:nth-child(4) { --step-color: #bd754e; --step-tint: rgb(247 226 214 / 78%); }
 .context-card:hover { transform: translateY(-2.5px); border-color: color-mix(in srgb, var(--step-color) 34%, transparent); box-shadow: 0 10px 21px rgb(70 96 107 / 14%); }
-.context-card-top { display: flex; align-items: center; justify-content: space-between; color: var(--step-color); font: 700 7px/1 'Courier New', monospace; letter-spacing: .16em; }
-.context-card-top > span:first-child { display: inline-grid; min-width: 21px; min-height: 15px; place-items: center; border-radius: 499.5px; background: color-mix(in srgb, var(--step-color) 11%, white); }
-.context-pulse { width: 6px; height: 6px; border: 1px solid var(--step-color); border-radius: 50%; background: rgb(255 255 255 / 76%); box-shadow: 0 0 0 2.5px color-mix(in srgb, var(--step-color) 10%, transparent); }
-.context-card h3 { margin: 14px 0 5.5px; color: var(--forest); font: 600 clamp(13.5px, 1.9vw, 17.5px)/1 Georgia, 'Times New Roman', serif; }
+.context-card h3 { margin: 6px 0 5.5px; color: var(--forest); font: 600 clamp(13.5px, 1.9vw, 17.5px)/1 Georgia, 'Times New Roman', serif; }
 .context-card p { margin: 0; color: rgb(38 51 74 / 72%); font-size: 14px; line-height: 1.55; }
 .flow-arrow { position: absolute; z-index: 3; top: 50%; right: -9.5px; width: 10px; height: 1px; color: transparent; background: linear-gradient(90deg, var(--step-color), var(--copper)); }
 .flow-arrow::after { content: ''; position: absolute; top: 50%; right: 0.5px; width: 4px; height: 4px; border-top: 1px solid var(--copper); border-right: 1px solid var(--copper); transform: translateY(-50%) rotate(45deg); }
@@ -446,7 +443,6 @@ footer p { margin: 0; }
   .author-block p { line-height: 1.5; }
   .context-flow { grid-template-columns: 1fr; }
   .context-card { min-height: 100px; }
-  .context-card h3 { margin-top: 24px; }
   .pipeline-frame { overflow-x: auto; }
   .pipeline-frame img { min-width: 480px; }
   .world-showcase { grid-template-columns: 1fr; min-height: 300px; }
