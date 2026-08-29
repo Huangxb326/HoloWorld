@@ -44,16 +44,29 @@ export default function SiteNav() {
           priority
         />
       </a>
-      <a
-        className="paper-link"
-        href="https://arxiv.org/abs/2608.05879"
-        target="_blank"
-        rel="noreferrer"
-        aria-label="Read the paper"
-        title="Read the paper"
-      >
-        <span className="paper-icon" aria-hidden="true"><span /></span>
-      </a>
+      <div className="nav-actions">
+        <a
+          className="nav-demo-link"
+          href="https://huangxb326.github.io/holoworld-demo-explorer/?case=dual"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Open the interactive HoloWorld demo"
+          title="Open the HoloWorld demo"
+        >
+          <span className="nav-demo-globe" aria-hidden="true" />
+          <span>Demo</span>
+        </a>
+        <a
+          className="paper-link"
+          href="https://arxiv.org/abs/2608.05879"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Read the paper"
+          title="Read the paper"
+        >
+          <span className="paper-icon" aria-hidden="true"><span /></span>
+        </a>
+      </div>
     </nav>
   );
 }
