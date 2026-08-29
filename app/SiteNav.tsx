@@ -54,7 +54,6 @@ export default function SiteNav() {
           title="Open the HoloWorld demo"
         >
           <span className="nav-demo-globe" aria-hidden="true" />
-          <span>Demo</span>
         </a>
         <a
           className="paper-link"
