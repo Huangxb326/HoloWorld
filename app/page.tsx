@@ -386,6 +386,7 @@ export default function Home() {
             </article>
           ))}
         </div>
+        <p className="world-demo-note">Click the <strong>“Demo”</strong> button to explore the interactive HoloWorld demo.</p>
       </section>
 
       <section className="citation-section" aria-labelledby="citation-title" data-nav-tone="light">
