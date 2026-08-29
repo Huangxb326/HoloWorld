@@ -142,13 +142,14 @@ a { color: inherit; text-decoration: none; }
 .affiliations p { margin: 4.5px 0 0; color: #55595b; font: 400 clamp(17.5px, calc(2vw + 2px), 23.5px)/1.08 Georgia, 'Times New Roman', serif; letter-spacing: -.018em; white-space: nowrap; }
 .affiliations sup { margin-right: 3.5px; color: #6c7373; font: 400 .5em/1 Arial, Helvetica, sans-serif; }
 .contribution-note { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 14px; margin-top: 9px; color: #666b6c; font: 400 clamp(11px, calc(1.12vw + 2px), 14px)/1.35 Arial, Helvetica, sans-serif; letter-spacing: .005em; }
+.hero-actions { display: flex; align-items: center; justify-content: center; gap: 11px; margin-top: 12px; }
 .hero-paper-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 7.5px;
   min-width: 107px;
-  margin-top: 12px;
+  margin-top: 0;
   padding: 9px 17px;
   border: 0.5px solid rgb(255 255 255 / 28%);
   border-radius: 10.5px;
@@ -164,6 +165,11 @@ a { color: inherit; text-decoration: none; }
 .hero-paper-doc::before { content: ''; position: absolute; top: 2.5px; right: -1.5px; width: 4.5px; height: 4.5px; border-left: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; background: var(--forest); }
 .hero-paper-doc span { position: absolute; left: 2.5px; bottom: 3px; width: 6.5px; height: 1.5px; border-radius: 1px; background: currentColor; box-shadow: 0 -3px 0 currentColor; }
 .hero-paper-button:hover .hero-paper-doc::before { background: #244c53; }
+.hero-demo-button { background: var(--copper); box-shadow: 0 6px 14px rgb(189 117 78 / 24%); }
+.hero-demo-button:hover { background: #a9603d; box-shadow: 0 8px 17px rgb(169 96 61 / 30%); }
+.hero-demo-button:focus-visible { outline-color: rgb(49 88 96 / 55%); }
+.hero-demo-icon { position: relative; width: 16.5px; height: 16.5px; border: 1.5px solid currentColor; border-radius: 50%; }
+.hero-demo-icon::before { content: ''; position: absolute; top: 50%; left: 53%; border-top: 3.5px solid transparent; border-bottom: 3.5px solid transparent; border-left: 5.5px solid currentColor; transform: translate(-42%, -50%); }
 
 /* Full-height "Six Worlds Scroll" cover. The horizon design remains the base
    style above and can be restored by switching data-cover to "horizon". */
@@ -298,7 +304,7 @@ a { color: inherit; text-decoration: none; }
 .worlds-title { text-align: center; }
 .worlds-title h2 { margin: 0; color: var(--forest); font: 600 clamp(28px, 4.8vw, 41px)/1 Georgia, 'Times New Roman', serif; letter-spacing: -.04em; }
 .world-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; margin-top: 32px; }
-.world-demo-note { margin: 20px 0 0; color: rgb(27 35 64 / 66%); text-align: center; font: 400 13px/1.55 Georgia, 'Times New Roman', serif; }
+.world-demo-note { margin: 20px 0 0; color: rgb(27 35 64 / 66%); text-align: center; font: 400 15px/1.55 Georgia, 'Times New Roman', serif; }
 .world-demo-note strong { color: var(--forest); font-weight: 700; }
 .world-showcase {
   --world-accent: #7895a2;
