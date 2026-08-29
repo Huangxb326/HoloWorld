@@ -54,6 +54,7 @@ export default function SiteNav() {
           title="Open the HoloWorld demo"
         >
           <span className="nav-demo-globe" aria-hidden="true" />
+          <span className="nav-action-label">Demo</span>
         </a>
         <a
           className="paper-link"
@@ -64,6 +65,7 @@ export default function SiteNav() {
           title="Read the paper"
         >
           <span className="paper-icon" aria-hidden="true"><span /></span>
+          <span className="nav-action-label">Paper</span>
         </a>
       </div>
     </nav>
