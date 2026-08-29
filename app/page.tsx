@@ -139,16 +139,28 @@ export default function Home() {
               <span>* Equal Contribution</span>
               <span>† Corresponding authors</span>
             </div>
-            <a
-              className="hero-paper-button"
-              href="https://arxiv.org/abs/2608.05879"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Read HoloWorld on arXiv"
-            >
-              <span className="hero-paper-doc" aria-hidden="true"><span /></span>
-              <span>ArXiv</span>
-            </a>
+            <div className="hero-actions">
+              <a
+                className="hero-paper-button"
+                href="https://arxiv.org/abs/2608.05879"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Read HoloWorld on arXiv"
+              >
+                <span className="hero-paper-doc" aria-hidden="true"><span /></span>
+                <span>ArXiv</span>
+              </a>
+              <a
+                className="hero-paper-button hero-demo-button"
+                href="https://huangxb326.github.io/holoworld-demo-explorer/?case=dual"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Open the interactive HoloWorld demo"
+              >
+                <span className="hero-demo-icon" aria-hidden="true" />
+                <span>Demo</span>
+              </a>
+            </div>
           </div>
         </div>
       </section>
