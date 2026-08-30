@@ -2,7 +2,7 @@
 
 ## To See a World in a Living Context: Unified Indoor-Outdoor Urban World Generation
 
-**Xiaobin Huang, Zilong Huang, Yang Luo, Hongchao Fan, Yiping Chen, and Ting Han**
+**Xiaobin Huang, Zilong Huang, Yang Luo, Hongchao Fan, Yiping Chen, Ting Han**
 
 <p align="center">
   <a href="https://huangxb326.github.io/HoloWorld/"><strong>Project Page</strong></a>
@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://huangxb326.github.io/HoloWorld/">
-    <img src="public/og.png" alt="HoloWorld project preview" width="900" />
+    <img src="public/images/paper-teaser.jpg" alt="HoloWorld paper teaser showing unified indoor-outdoor urban world generation" width="1100" />
   </a>
 </p>
 
@@ -52,21 +52,4 @@ If you find HoloWorld useful, please cite:
   journal={arXiv preprint arXiv:2608.05879},
   year={2026}
 }
-```
-
-## Website Development
-
-This repository hosts the source code for the official HoloWorld project page.
-
-```bash
-npm install
-npm run dev
-```
-
-For a GitHub Pages production build:
-
-```bash
-NEXT_PUBLIC_BASE_PATH=/HoloWorld \
-NEXT_PUBLIC_SITE_URL=https://Huangxb326.github.io/HoloWorld \
-npm run build:pages
 ```
