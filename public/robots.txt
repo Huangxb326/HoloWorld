@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://huangxb326.github.io/HoloWorld/sitemap.xml
