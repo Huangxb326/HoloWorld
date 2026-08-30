@@ -47,7 +47,7 @@ export default function SiteNav() {
       <div className="nav-actions">
         <a
           className="nav-demo-link"
-          href="https://huangxb326.github.io/holoworld-demo-explorer/?case=dual"
+          href="https://huangxb326.github.io/holoworld-demo-explorer/?case=switch"
           target="_blank"
           rel="noreferrer"
           aria-label="Open the interactive HoloWorld demo"

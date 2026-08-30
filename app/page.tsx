@@ -54,6 +54,7 @@ const gallery = [
     overview: siteAsset('/images/worlds/european/overview.png'),
     details: [siteAsset('/images/worlds/european/detail-1.png'), siteAsset('/images/worlds/european/detail-2.png')],
     interiors: [siteAsset('/images/worlds/european/interior-dollhouse.png'), siteAsset('/images/worlds/european/interior-view.png')],
+    demo: 'https://huangxb326.github.io/holoworld-demo-explorer/?case=european',
   },
   {
     name: 'Ghibli City',
@@ -61,6 +62,7 @@ const gallery = [
     overview: siteAsset('/images/worlds/ghibli/overview.png'),
     details: [siteAsset('/images/worlds/ghibli/detail-1.png'), siteAsset('/images/worlds/ghibli/detail-2.png')],
     interiors: [siteAsset('/images/worlds/ghibli/interior-dollhouse.png'), siteAsset('/images/worlds/ghibli/interior-view.png')],
+    demo: 'https://huangxb326.github.io/holoworld-demo-explorer/?case=ghibli',
   },
   {
     name: 'High-Density Modern City',
@@ -68,6 +70,7 @@ const gallery = [
     overview: siteAsset('/images/worlds/high-density/overview.png'),
     details: [siteAsset('/images/worlds/high-density/detail-1.png'), siteAsset('/images/worlds/high-density/detail-2.png')],
     interiors: [siteAsset('/images/worlds/high-density/interior-dollhouse.png'), siteAsset('/images/worlds/high-density/interior-view.png')],
+    demo: 'https://huangxb326.github.io/holoworld-demo-explorer/?case=modern',
   },
   {
     name: 'Candy-Pop Toy City',
@@ -152,7 +155,7 @@ export default function Home() {
               </a>
               <a
                 className="hero-paper-button hero-demo-button"
-                href="https://huangxb326.github.io/holoworld-demo-explorer/?case=dual"
+                href="https://huangxb326.github.io/holoworld-demo-explorer/?case=switch"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Open the interactive HoloWorld demo"

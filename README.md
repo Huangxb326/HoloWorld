@@ -9,7 +9,7 @@
   &nbsp;·&nbsp;
   <a href="https://arxiv.org/abs/2608.05879"><strong>Paper</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://huangxb326.github.io/holoworld-demo-explorer/?case=dual"><strong>Interactive Demo</strong></a>
+  <a href="https://huangxb326.github.io/holoworld-demo-explorer/?case=switch"><strong>Interactive Demo</strong></a>
 </p>
 
 <p align="center">
@@ -38,7 +38,7 @@ To our knowledge, **HoloWorld is the first framework to unify indoor and outdoor
 
 - **Project page:** https://huangxb326.github.io/HoloWorld/
 - **Paper:** https://arxiv.org/abs/2608.05879
-- **Interactive demo:** https://huangxb326.github.io/holoworld-demo-explorer/?case=dual
+- **Interactive demo:** https://huangxb326.github.io/holoworld-demo-explorer/?case=switch
 - **Website source:** this repository
 
 ## Citation
