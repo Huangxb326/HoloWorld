@@ -34,13 +34,6 @@ To our knowledge, **HoloWorld is the first framework to unify indoor and outdoor
 - Building-specific indoor synthesis conditioned on geometry, assets, appearance, and footprint.
 - Interactive exploration of generated HoloWorld cities through the online demo.
 
-## Project Resources
-
-- **Project page:** https://huangxb326.github.io/HoloWorld/
-- **Paper:** https://arxiv.org/abs/2608.05879
-- **Interactive demo:** https://huangxb326.github.io/holoworld-demo-explorer/?case=switch
-- **Website source:** [`pages`](https://github.com/Huangxb326/HoloWorld/tree/pages) branch
-
 ## Citation
 
 If you find HoloWorld useful, please cite:
